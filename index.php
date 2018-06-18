@@ -15,12 +15,39 @@
 get_header();
 ?>
 
-<section class="home-begin">
-    <div class="element-flutuant">
-        <img src="<?php echo get_template_directory_uri(); ?>/custom/img/fundo_sem_logo.png" alt="" class="element-img">
-        <div class="logo">
+    <div class="home-begin element-flutuant">
+        <div class="element-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/custom/img/canijan-bg.png" alt="" class="">
+
+            <div class="logo-home">
+                <img src="<?php echo get_template_directory_uri(); ?>/custom/img/logo-pantone-red.png" alt="">
+            </div>
+            <ul class="menu-list">
+                <li>
+                    <a href="<?php echo get_site_url(); ?>">Canijan Oliveira</a>
+                </li>
+                <li>
+                    <a href="">Trabalhos</a>
+                    <a href="">Works</a>
+                </li>
+                <li>
+                    <a href="">Contato</a>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">Orçamentos</a>
+                    <a href="">Requests</a>
+                </li>
+            </ul>
+
+            <div class="footer-text">
+                <p>
+                    <?= date("Y") ?> &reg <a href="<?php echo get_site_url(); ?>" class="link-white">Canijan
+                        Oliveira</a>, tattoo artist.
+                </p>
+            </div>
+
         </div>
     </div>
-</section>
 <?php
 get_footer();
