@@ -1,0 +1,19 @@
+body{
+  background-color: $pantone5115 !important;
+}
+.hidden{
+  display: none !important;
+}
+
+.text-base{
+  font-size: 32px;
+  font-family: $ff-raleway;
+}
+
+.video-home-fullscreen{
+  height: 100% !important;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  z-index: -9;
+}
