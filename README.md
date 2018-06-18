@@ -1,8 +1,10 @@
 Wordpress Theme Originally developer based in a starter wp theme 'underscores';
 
+Developer using techs: html5, css3 e javascript;
+
 Canijan Art Work
 ---------------
-Tatuado e Pintor, Aracajú/SE.
+Tatuador e Pintor, Aracajú/SE.
 
 Behance: https://www.behance.net/canijanartwork
 
